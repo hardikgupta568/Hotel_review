@@ -1,0 +1,13 @@
+#show-img {
+    width: 100%;
+    height: 400px;
+}
+
+#index-img {
+    width: 100%;
+    height: 300px;
+}
+
+#delete-form {
+    display: inline;
+}

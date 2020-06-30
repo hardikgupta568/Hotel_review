@@ -1,0 +1,31 @@
+<%-include("../partials/header")%>
+
+
+
+    <div class="container">
+        <header class="jumbotron">
+            <h1>Welcome to Hotels!</h1>
+            <p>View our hand picked Hotels</p>
+            <p>
+                <a class="btn btn-primary btn-large" href="/hotels/new">ADD</a>
+            </p>
+        </header>
+        <div class="row">
+            <%for(var i=0;i<hotels.length;i++){%>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;height: 25rem;">
+                        <img src="<%=hotels[i].image %> " id="index-img" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%=hotels[i].name%>
+                            </h5>
+                            <a class="btn btn-primary" href="/hotels/<%= hotels[i].id %> ">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <%}%>
+
+
+        </div>
+        <%-include("../partials/footer")%>
+    </div>
