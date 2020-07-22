@@ -14,3 +14,15 @@ public/images/Comments.png
 ## Demo
 ### Landing page
 ![Landing page](public/images/landing.png "Landing page")
+
+
+### Hotels page
+
+![HOTELS]( public/images/Hotels.png "Hotels")
+
+### Hotel show page
+
+![Hotel](public/images/Hotel.png "hotel")
+
+### Comments
+![Comments](public/images/Comments.png "Comments")
